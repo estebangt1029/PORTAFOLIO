@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body{
+    font-family: 'Creepster', sans-serif;
+    background-image: url(resources/cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.proyectos{
+    display: flex;
+    height: 500px;
+    gap: 10px;
+}
+.proyecto1{
+    background-image: url(https://res.cloudinary.com/daqs7crna/image/upload/v1683298712/Captura_desde_2023-05-05_09-57-29_ydxaz6.png);
+}
+.proyecto2{
+    background-image: url(https://res.cloudinary.com/daqs7crna/image/upload/v1683299818/Captura_desde_2023-05-05_10-16-27_rzcqhz.png);
+}
+.proyecto3{
+    background-image: url(https://res.cloudinary.com/daqs7crna/image/upload/v1683300132/Captura_desde_2023-05-05_10-21-57_af2pxn.png);
+}
+.proyecto{
+    flex: 1;
+    border-radius: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s cubic-bezier(.25, 1, .45, 1.4);
+}
+
+.proyecto:hover{
+    flex: 5;
+}
+
+.logo1{
+    animation: flotar 1s ease-in-out 1;
+}
+.logo2{
+    animation: flotar 1s ease-in-out 1 0.5s;
+}
+.logo3{
+    animation: flotar 1s ease-in-out 1 1s;
+}
+.logo4{
+    animation: flotar 1s ease-in-out 1 1.5s;
+}
+.logo5{
+    animation: flotar 1s ease-in-out 1 2s;
+}
+.logo6{
+    animation: flotar 1s ease-in-out 1 2.5s;
+}
+.logo7{
+    animation: flotar 1s ease-in-out 1 3s;
+}
+.logo8{
+    animation: flotar 1s ease-in-out 1 3.5s;
+}
+.logo9{
+    animation: flotar 1s ease-in-out 1 4s;
+}
+
+@keyframes flotar {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-10px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+}
+
+.icono{
+    width: 100px;
+}
+
+
