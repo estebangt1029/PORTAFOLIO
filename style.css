@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Creepster', sans-serif;
-    background-image: url(resources/cool-background.png);
+    background-image: url(resources/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
